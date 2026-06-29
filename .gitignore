@@ -1,0 +1,45 @@
+# Ignore virtual environments
+venv/
+.venv/
+env/
+.env_dir/
+
+# Ignore environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+credentials.json
+client_secret.json
+
+# Ignore agent configuration
+.agents/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
