@@ -1,6 +1,7 @@
 # LangChain Core
 langchain
 langchain-core
+grandalf  # Required by chain.get_graph().print_ascii()
 
 # OpenAI Integration
 langchain-openai
